@@ -21,6 +21,7 @@ if not db.connect():
     print("接続NG")
     exit()
 
+
 # メッセージのモデル
 class Message(Model):
     """Message Model"""
